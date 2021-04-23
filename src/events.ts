@@ -17,9 +17,9 @@ export function getEventColor(type: EventType) {
 
 export interface EventData {
   title: string;
+  description: string;
   type: EventType;
 
-  description?: string;
   twitch?: string;
   challonge?: string;
 
@@ -39,9 +39,9 @@ interface EventWhenDTO {
 }
 interface EventDTO {
   title: string;
+  description: string;
   type: EventType;
 
-  description?: string;
   twitch?: string;
   challonge?: string;
 

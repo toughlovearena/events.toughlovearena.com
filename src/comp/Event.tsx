@@ -75,11 +75,9 @@ export function Event(props: { event: EventData }) {
       <EventTitle>
         {event.title}
       </EventTitle>
-      {event.description && (
-        <EventDescription>
-          {event.description}
-        </EventDescription>
-      )}
+      <EventDescription>
+        {event.description}
+      </EventDescription>
       {links.length && (
         <EventLinks>
           {links.map((link, index) => (
