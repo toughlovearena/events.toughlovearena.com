@@ -41,6 +41,9 @@ events:
     image: mpaulweeks.jpg
     twitch: mpaulweeks
     when:
+      - date: 2021/04/22
+        time: 14:00
+        hours: 3
       - date: 2021/04/27
         time: 14:00
         hours: 3
