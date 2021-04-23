@@ -2,27 +2,35 @@ events:
 
   # required fields
   # - title: "Tough Love Gauntlet #15"
+  #   description: Blurb about your event
+  #   type: tournament | stream | meetup
   #   when:
   #     - date: 2021/01/01
-  #       time: 1830 EST
+  #       time: 18:30
+  #       hours: 3
 
   # optional fields
-  #   description: Blurb about your event
   #   twitch: twitchname
   #   challonge: eventname
 
   - title: "Tough Love Gauntlet #15"
+    type: tournament
+    description: Free online tournament every Friday night
     twitch: theapexcollective​
     challonge: ToughLoveGauntlet015
     when:
       - date: 2021/04/23
         time: 18:30
+        hours: 2
 
-  - title: Developer Stream
+  - title: Official Game Dev Stream
+    type: stream
     description: Watch the game development process and chat with the creators of TLA
     twitch: mpaulweeks
     when:
       - date: 2021/04/27
         time: 14:00
+        hours: 3
       - date: 2021/04/29
         time: 14:00
+        hours: 3
