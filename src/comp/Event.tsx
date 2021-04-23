@@ -16,20 +16,23 @@ const EventContainer = styled.div<{ type: EventType }>`
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-
-  & > * {
-    margin: 0.5rem 0;
-  }
 `;
 
 const EventTitle = styled.div`
   font-size: 1.5em;
   text-decoration: underline;
+  margin: 0.5rem 0;
+`;
+
+const EventDescription = styled.div`
 `;
 
 const EventLinks = styled.div`
 `;
 
+const EventTime = styled.div`
+  text-align: right;
+`;
 const EventStart = styled.div`
   font-size: 1.3em;
 `;
@@ -73,13 +76,12 @@ export function Event(props: { event: EventData }) {
         {event.title}
       </EventTitle>
       {event.description && (
-        <div>
+        <EventDescription>
           {event.description}
-        </div>
+        </EventDescription>
       )}
       {links.length && (
         <EventLinks>
-          links:&nbsp;
           {links.map((link, index) => (
             <span key={index} >
               {index > 0 && ' / '}
@@ -88,19 +90,18 @@ export function Event(props: { event: EventData }) {
           ))}
         </EventLinks>
       )}
-      <div>
+      <EventTime>
         <EventStart>
           {event.start.toLocaleString()}
         </EventStart>
         <div>
-          add to:&nbsp;
           <a rel="noreferrer" target="_blank" href={calendarLink.google(calEvent)}>gcal</a>
           &nbsp;/&nbsp;
           <a rel="noreferrer" target="_blank" href={calendarLink.ics(calEvent)}>ics</a>
           &nbsp;/&nbsp;
           <a rel="noreferrer" target="_blank" href={calendarLink.outlook(calEvent)}>outlook</a>
         </div>
-      </div>
+      </EventTime>
     </EventContainer>
   );
 }
