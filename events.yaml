@@ -13,19 +13,29 @@ events:
   #   twitch: twitchname
   #   challonge: eventname
 
-  - title: "Tough Love Gauntlet #15"
+  - title: Tough Love Gauntlet NA 015
+    description: Free online tournament every Friday night for North American players
     type: tournament
-    description: Free online tournament every Friday night
-    twitch: theapexcollective​
+    twitch: theapexcollective
     challonge: ToughLoveGauntlet015
     when:
       - date: 2021/04/23
         time: 18:30
         hours: 2
 
+  - title: Tough Love Gauntlet EU 013
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    twitch: theapexcollective
+    challonge: tlgeu013
+    when:
+      - date: 2021/04/24
+        time: 12:30
+        hours: 2
+
   - title: Official Game Dev Stream
-    type: stream
     description: Watch the game development process and chat with the creators of TLA
+    type: stream
     twitch: mpaulweeks
     when:
       - date: 2021/04/27
