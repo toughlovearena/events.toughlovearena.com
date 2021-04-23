@@ -67,7 +67,7 @@ export function Event(props: { event: EventData }) {
       name: 'challonge',
       url,
     });
-    calEventDescription += `challonge: ${url} \n`;
+    calEventDescription += `${url}\n`;
   }
   if (event.twitch) {
     const url = 'https://twitch.tv/' + event.twitch;
@@ -75,7 +75,7 @@ export function Event(props: { event: EventData }) {
       name: 'twitch',
       url,
     });
-    calEventDescription += `twitch: ${url} \n`;
+    calEventDescription += `${url}\n`;
   }
 
   const calEvent: calendarLink.CalendarEvent = {
