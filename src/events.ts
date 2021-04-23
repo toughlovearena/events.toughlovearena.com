@@ -94,15 +94,15 @@ function convertEventDTO(dto: EventDTO): EventData[] {
 }
 
 export async function fetchEvents(): Promise<AllEvents> {
-
-  const resp = await fetch('events.yaml');
+  const now = new Date();
+  const resp = await fetch(`events.yaml?v=${now.getTime()}`);
   const text = await resp.text();
   const data = await YAML.parse(text);
 
   const dtos = data.events as EventDTO[];
   const all = sortEvents(dtos.map(convertEventDTO).flat());
 
-  const now = new Date();
+
   const upcoming = all.filter(e => e.end > now);
 
   const ret: AllEvents = {
