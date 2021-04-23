@@ -20,6 +20,7 @@ export interface EventData {
   description: string;
   type: EventType;
 
+  image?: string;
   twitch?: string;
   challonge?: string;
 
@@ -42,6 +43,7 @@ interface EventDTO {
   description: string;
   type: EventType;
 
+  image?: string;
   twitch?: string;
   challonge?: string;
 
@@ -80,8 +82,11 @@ function convertEventDTO(dto: EventDTO): EventData[] {
       title: dto.title,
       type: dto.type,
       description: dto.description,
+
+      image: dto.image,
       twitch: dto.twitch,
       challonge: dto.challonge,
+
       start,
       end,
     };

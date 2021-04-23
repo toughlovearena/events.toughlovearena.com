@@ -6,10 +6,15 @@ import { EventData, EventType, getEventColor } from '../events';
 const EventContainer = styled.div<{ type: EventType }>`
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 1rem 0 1rem 1rem;
   ${props => `
     border: 0.5em solid ${getEventColor(props.type)};
   `}
+
+  /* image */
+  position: relative;
+  background: none;
+  z-index: 2;
 
   text-align: left;
   display: flex;
@@ -22,6 +27,15 @@ const EventTitle = styled.div`
   font-size: 1.5em;
   text-decoration: underline;
   margin: 0.5rem 0;
+`;
+
+const EventImage = styled.img`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: 3.5rem;
+  z-index: 1;
 `;
 
 const EventDescription = styled.div`
@@ -100,6 +114,9 @@ export function Event(props: { event: EventData }) {
           <a rel="noreferrer" target="_blank" href={calendarLink.outlook(calEvent)}>outlook</a>
         </div>
       </EventTime>
+      {event.image && (
+        <EventImage src={'images/' + event.image} />
+      )}
     </EventContainer>
   );
 }
