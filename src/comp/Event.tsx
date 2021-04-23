@@ -85,7 +85,7 @@ export function Event(props: { event: EventData }) {
           {links.map((link, index) => (
             <span key={index} >
               {index > 0 && ' / '}
-              <a href={link.url}>{link.name}</a>
+              <a rel="noreferrer" target="_blank" href={link.url}>{link.name}</a>
             </span>
           ))}
         </EventLinks>
