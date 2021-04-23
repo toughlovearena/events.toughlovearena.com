@@ -1,13 +1,30 @@
 import YAML from 'yaml';
 
+
+export enum EventType {
+  Stream = 'stream',
+  Tournament = 'tournament',
+  Meetup = 'meetup',
+};
+const EventColor = {
+  [EventType.Stream]: '#6441a5', // Twitch Purple
+  [EventType.Tournament]: '#aa6c39',
+  [EventType.Meetup]: '#ed1c40',
+};
+export function getEventColor(type: EventType) {
+  return EventColor[type] ?? 'black';
+}
+
 export interface EventData {
   title: string;
+  type: EventType;
 
   description?: string;
   twitch?: string;
   challonge?: string;
 
-  datetime: Date;
+  start: Date;
+  end: Date;
 }
 
 export interface AllEvents {
@@ -18,9 +35,11 @@ export interface AllEvents {
 interface EventWhenDTO {
   date: string;
   time: string;
+  hours: number;
 }
 interface EventDTO {
   title: string;
+  type: EventType;
 
   description?: string;
   twitch?: string;
@@ -39,7 +58,7 @@ function sortArrayOfObjects<T>(arr: T[], cb: ((obj: T) => string | number)): T[]
   return arr;
 }
 function sortEvents(events: EventData[]): EventData[] {
-  return sortArrayOfObjects(events.concat(), e => e.datetime.getTime());
+  return sortArrayOfObjects(events.concat(), e => e.start.getTime());
 }
 
 // https://stackoverflow.com/a/57842203
@@ -55,20 +74,21 @@ function convertEventDTO(dto: EventDTO): EventData[] {
   return dto.when.map(w => {
     const [yyyy, mm, dd] = w.date.split('/').map(s => parseFloat(s));
     const [hour, min] = w.time.split(':').map(s => parseFloat(s));
-    const date = dateWithTimeZone('America/New_York', yyyy, mm, dd, hour, min, 0);
+    const start = dateWithTimeZone('America/New_York', yyyy, mm, dd, hour, min, 0);
+    const end = new Date(start.getTime() + (w.hours * 60 * 60 * 1000));
     return {
       title: dto.title,
+      type: dto.type,
       description: dto.description,
       twitch: dto.twitch,
       challonge: dto.challonge,
-      datetime: date,
+      start,
+      end,
     };
   });
 }
 
 export async function fetchEvents(): Promise<AllEvents> {
-  const buffer = 6 * 60 * 60 * 1000; /// 6 hours
-  const cutoff = new Date(new Date().getTime() - buffer);
 
   const resp = await fetch('events.yaml');
   const text = await resp.text();
@@ -76,12 +96,14 @@ export async function fetchEvents(): Promise<AllEvents> {
 
   const dtos = data.events as EventDTO[];
   const all = sortEvents(dtos.map(convertEventDTO).flat());
-  const upcoming = all.filter(e => e.datetime > cutoff);
+
+  const now = new Date();
+  const upcoming = all.filter(e => e.end > now);
+
   const ret: AllEvents = {
     upcoming,
     all,
   };
-
   console.log(ret);
   return ret;
 }

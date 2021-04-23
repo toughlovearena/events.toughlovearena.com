@@ -8,8 +8,12 @@ const Column = styled.div`
   min-height: 100vh;
   margin: 0 auto;
   padding: 1em;
+  border: 1px solid black;
+  border-top-width: 0;
+  border-bottom-width: 0;
   box-sizing: border-box;
   background-color: white;
+
 
   text-align: center;
   display: flex;
