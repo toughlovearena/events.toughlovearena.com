@@ -25,8 +25,12 @@ const Column = styled.div`
 const Header = styled.div`
   margin: 1em;
 `;
+const HeaderLogo = styled.img`
+  width: 95%;
+  height: auto;
+`;
 const HeaderTitle = styled.div`
-  font-size: 3em;
+  font-size: 1.5em;
   margin-bottom: 0.2em;
 `;
 
@@ -98,15 +102,13 @@ export function App() {
   return (
     <Column>
       <Header>
-        <HeaderTitle>Tough Love Arena Events</HeaderTitle>
+        <HeaderLogo src='logo.png' />
+        <HeaderTitle>Upcoming Tough Love Arena Events</HeaderTitle>
         <div>
           Want to submit your own event? Check the <a href="https://github.com/toughlovearena/events">GitHub</a> for instructions
         </div>
       </Header>
       <Body>
-        <BodyTitle>
-          Upcoming Events
-        </BodyTitle>
         <EventKey>
           <FilterLabel filter={filter} setFilter={setFilter} eventType={undefined} label='All'></FilterLabel>
           <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
