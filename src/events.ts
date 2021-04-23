@@ -7,12 +7,12 @@ export enum EventType {
   Meetup = 'meetup',
 };
 const EventColor = {
-  [EventType.Stream]: '#6441a5', // Twitch Purple
-  [EventType.Tournament]: '#aa6c39',
+  [EventType.Stream]: '#9747ff',
+  [EventType.Tournament]: '#ff870f',
   [EventType.Meetup]: '#ed1c40',
 };
-export function getEventColor(type: EventType) {
-  return EventColor[type] ?? 'black';
+export function getEventColor(type: EventType | undefined) {
+  return (type && EventColor[type]) ?? '#707070';
 }
 
 export interface EventData {

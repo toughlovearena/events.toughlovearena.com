@@ -4,10 +4,10 @@ import { fetchEvents, EventData, EventType, getEventColor } from '../events';
 import { Event } from './Event';
 
 const Column = styled.div`
-  max-width: 600px;
+  max-width: 620px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1em 2em;
   border: 1px solid black;
   border-top-width: 0;
   border-bottom-width: 0;
@@ -54,11 +54,11 @@ const EventLabel = styled.div<{ color: string, selected: boolean, }>`
   padding: 0.5em;
   box-sizing: border-box;
   width: 7em;
+  border-radius: 1em;
   ${props => `
-    border: 0.5em solid ${props.color};
-    border-radius: ${props.selected ? '0' : '1'}em;
+    border: 0.2em solid ${props.color};
     ${props.selected ? `
-      background-color: #ffa;
+      border-width: 0.4em;
     ` : ``}
   `}
 
@@ -79,7 +79,7 @@ function FilterLabel(props: {
   return (
     <EventLabel
       selected={filter === eventType}
-      color={eventType ? getEventColor(eventType) : 'black'}
+      color={getEventColor(eventType)}
       onClick={() => setFilter(eventType)}
     >{label}</EventLabel>
   )
@@ -113,7 +113,7 @@ export function App() {
           <FilterLabel filter={filter} setFilter={setFilter} eventType={undefined} label='All'></FilterLabel>
           <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
           <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Stream} label='Stream'></FilterLabel>
-          <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Meetup'></FilterLabel>
+          {/* <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Meetup'></FilterLabel> */}
         </EventKey>
         {events ? (
           <div>
