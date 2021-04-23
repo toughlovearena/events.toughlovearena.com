@@ -34,3 +34,27 @@ events:
       - date: 2021/04/29
         time: 14:00
         hours: 3
+      - date: 2021/05/04
+        time: 14:00
+        hours: 3
+      - date: 2021/05/06
+        time: 14:00
+        hours: 3
+      - date: 2021/05/11
+        time: 14:00
+        hours: 3
+      - date: 2021/05/13
+        time: 14:00
+        hours: 3
+      - date: 2021/05/18
+        time: 14:00
+        hours: 3
+      - date: 2021/05/20
+        time: 14:00
+        hours: 3
+      - date: 2021/05/25
+        time: 14:00
+        hours: 3
+      - date: 2021/05/27
+        time: 14:00
+        hours: 3
