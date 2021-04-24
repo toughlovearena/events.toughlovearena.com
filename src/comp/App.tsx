@@ -105,7 +105,7 @@ export function App() {
         <HeaderLogo src='logo.png' />
         <HeaderTitle>Upcoming Tough Love Arena Events</HeaderTitle>
         <div>
-          Want to submit your own event? Check the <a href="https://github.com/toughlovearena/events">GitHub</a> for instructions
+          Want to submit your own event? Check the <a href="https://github.com/toughlovearena/events.toughlovearena.com">GitHub</a> for instructions
         </div>
       </Header>
       <Body>
