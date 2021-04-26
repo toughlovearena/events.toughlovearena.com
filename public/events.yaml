@@ -56,6 +56,22 @@ events:
       - date: 2021/05/01
         time: 12:30
         hours: 2
+        
+  - title: State of the Game
+    description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2021/05/03
+        time: 20:00
+        hours: 1
+      - date: 2021/06/07
+        time: 20:00
+        hours: 1
+      - date: 2021/07/05
+        time: 20:00
+        hours: 1
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
