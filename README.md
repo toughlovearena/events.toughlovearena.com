@@ -8,7 +8,7 @@ Website to view upcoming community events for Tough Love Arena
 
 We want to keep this event calendar up to date with all the cool community efforts! You have two ways to submit your event:
 
-### Option 1: Using GitHub (for frequenct collaborators)
+### Option 1: Using GitHub (for frequent collaborators)
 
 You will need to create a free GitHub account, then click [this link](https://github.com/toughlovearena/events.toughlovearena.com/edit/main/public/events.yaml) to directly edit the event file. When you finish, click the button at the bottom to submit it for review, and it will be added ASAP.
 
