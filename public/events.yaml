@@ -56,6 +56,27 @@ events:
       - date: 2021/05/01
         time: 12:30
         hours: 2
+ - title: Tough Love Gauntlet NA 017
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet017
+    when:
+      - date: 2021/05/07
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 015
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu015
+    when:
+      - date: 2021/05/08
+        time: 12:30
+        hours: 2
         
   - title: State of the Game
     description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
@@ -72,6 +93,7 @@ events:
       - date: 2021/07/05
         time: 20:00
         hours: 1
+
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
