@@ -57,7 +57,7 @@ events:
         time: 12:30
         hours: 2
 
- -  title: Tough Love Gauntlet NA 017
+  - title: Tough Love Gauntlet NA 017
     description: Free online tournament every Friday night for North American players
     type: tournament
     image: tng.png
@@ -78,7 +78,7 @@ events:
       - date: 2021/05/08
         time: 12:30
         hours: 2
-        
+
   - title: State of the Game
     description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
     type: stream
