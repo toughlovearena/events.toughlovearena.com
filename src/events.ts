@@ -49,6 +49,9 @@ interface EventDTO {
 
   when: EventWhenDTO[];
 }
+interface YamlDTO {
+  events: EventDTO[];
+}
 
 function compare(a: string | number, b: string | number) {
   if (a < b) { return -1; }
@@ -93,22 +96,34 @@ function convertEventDTO(dto: EventDTO): EventData[] {
   });
 }
 
-export async function fetchEvents(): Promise<AllEvents> {
+function flatten<T>(arr: T[][]): T[] {
+  // dumb polyfill for jest
+  // https://github.com/kulshekhar/ts-jest/issues/828
+  const out = [] as T[];
+  arr.forEach(subArr => out.push(...subArr));
+  return out;
+}
+
+export function parseEvents(eventYaml: string) {
   const now = new Date();
-  const resp = await fetch(`events.yaml?v=${now.getTime()}`);
-  const text = await resp.text();
-  const data = await YAML.parse(text);
-
-  const dtos = data.events as EventDTO[];
-  const all = sortEvents(dtos.map(convertEventDTO).flat());
-
+  const data = YAML.parse(eventYaml) as YamlDTO;
+  const dtos = data.events;
+  if (!dtos) {
+    throw new Error('events yaml is not formatted correctly');
+  }
+  const all = sortEvents(flatten(dtos.map(convertEventDTO)));
 
   const upcoming = all.filter(e => e.end > now);
-
   const ret: AllEvents = {
     upcoming,
     all,
   };
-  console.log(ret);
   return ret;
+}
+
+export async function fetchEvents(): Promise<AllEvents> {
+  const now = new Date();
+  const resp = await fetch(`events.yaml?v=${now.getTime()}`);
+  const text = await resp.text();
+  return parseEvents(text);
 }
