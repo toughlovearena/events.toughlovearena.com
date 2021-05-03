@@ -105,6 +105,9 @@ export function App() {
         <HeaderLogo src='logo.png' />
         <HeaderTitle>Upcoming Tough Love Arena Events</HeaderTitle>
         <div>
+          All dates and times are displayed in your local timezone
+        </div>
+        <div>
           Want to submit your own event? Check the <a href="https://github.com/toughlovearena/events.toughlovearena.com">GitHub</a> for instructions
         </div>
       </Header>
