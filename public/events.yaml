@@ -12,6 +12,15 @@ events:
   # optional fields
   #   twitch: twitchname
   #   challonge: eventname
+  
+  - title: "The Fruit Aisle: Everyone's Arena"
+    description: An event where every set is BO5 and you must win a game with one character from each group
+    type: tournament
+    challonge: hufids
+    when:
+      - date: 2021/05/12
+        time: 19:00
+        hours: 3
 
   - title: Tough Love Gauntlet NA 015
     description: Free online tournament every Friday night for North American players
