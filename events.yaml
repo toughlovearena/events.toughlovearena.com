@@ -151,9 +151,6 @@ events:
       - date: 2021/05/06
         time: 14:00
         hours: 3
-      - date: 2021/05/11
-        time: 14:00
-        hours: 3
       - date: 2021/05/13
         time: 14:00
         hours: 3
