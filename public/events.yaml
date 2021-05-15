@@ -16,7 +16,7 @@ events:
   # please put new events at the top of the file
   
   - title: "2BCU CommuniCup May: Tough Love Arena"
-    description: Free online tournament for EU players"
+    description: Free online tournament for EU players
     type: tournament
     twitch: 2BCU
     challonge: CCTLA
