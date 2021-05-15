@@ -25,7 +25,27 @@ events:
       - date: 2021/05/12
         time: 19:00
         hours: 3
+- title: Tough Love Gauntlet NA 019
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet019
+    when:
+      - date: 2021/05/21
+        time: 18:30
+        hours: 2
 
+  - title: Tough Love Gauntlet EU 017
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu017
+    when:
+      - date: 2021/05/22
+        time: 12:30
+        hours: 2
   - title: Tough Love Gauntlet NA 018
     description: Free online tournament every Friday night for North American players
     type: tournament
