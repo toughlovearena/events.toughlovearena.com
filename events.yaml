@@ -15,6 +15,16 @@ events:
   
   # please put new events at the top of the file
   
+  - title: "2BCU CommuniCup May: Tough Love Arena"
+    description: "Online European tournament. See https://twitter.com/2becommunity/status/1393613661965533186 for more!"
+    type: tournament
+    twitch: 2BCU
+    challonge: CCTLA
+    when:
+      - date: 2021/05/16
+        time: 08:00 # 2pm CEST
+        hours: 3
+  
   - title: "The Fruit Aisle: Everyone's Arena"
     description: An event where every set is BO5 and you must win a game with one character from each group
     type: tournament
