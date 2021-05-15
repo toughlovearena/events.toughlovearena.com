@@ -16,7 +16,7 @@ events:
   # please put new events at the top of the file
   
   - title: "2BCU CommuniCup May: Tough Love Arena"
-    description: "Online European tournament. See https://twitter.com/2becommunity/status/1393613661965533186 for more!"
+    description: Free online tournament for EU players"
     type: tournament
     twitch: 2BCU
     challonge: CCTLA
