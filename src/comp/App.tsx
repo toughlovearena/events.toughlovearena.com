@@ -14,7 +14,6 @@ const Column = styled.div`
   box-sizing: border-box;
   background-color: white;
 
-
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -31,13 +30,6 @@ const HeaderLogo = styled.img`
 `;
 const HeaderTitle = styled.div`
   font-size: 1.5em;
-  margin-bottom: 0.2em;
-`;
-
-const Body = styled.div`
-`;
-const BodyTitle = styled.div`
-  font-size: 2em;
   margin-bottom: 0.2em;
 `;
 
@@ -113,34 +105,32 @@ export function App() {
           Want to submit your own event? Check the <a href="https://github.com/toughlovearena/events.toughlovearena.com">GitHub</a> for instructions.
         </div>
       </Header>
-      <Body>
-        <EventKey>
-          <FilterLabel filter={filter} setFilter={setFilter} eventType={undefined} label='All'></FilterLabel>
-          <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
-          <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Stream} label='Stream'></FilterLabel>
-          {/* <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Meetup'></FilterLabel> */}
-        </EventKey>
-        <EventKey>
-          <EventLabel
-            stretch={true}
-            selected={false}
-            color={'red'}
-            onClick={() => setShowPast(!showPast)}>
-            Switch to {showPast ? 'Upcoming' : 'Past'} Events
+      <EventKey>
+        <FilterLabel filter={filter} setFilter={setFilter} eventType={undefined} label='All'></FilterLabel>
+        <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
+        <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Stream} label='Stream'></FilterLabel>
+        {/* <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Meetup'></FilterLabel> */}
+      </EventKey>
+      <EventKey>
+        <EventLabel
+          stretch={true}
+          selected={false}
+          color={'red'}
+          onClick={() => setShowPast(!showPast)}>
+          Switch to {showPast ? 'Upcoming' : 'Past'} Events
           </EventLabel>
-        </EventKey>
-        {events ? (
-          <div>
-            {events.map((e, ei) => (
-              <Event key={ei} event={e} />
-            ))}
-          </div>
-        ) : (
-          <div>
-            loading...
-          </div>
-        )}
-      </Body>
+      </EventKey>
+      {events ? (
+        <div>
+          {events.map((e, ei) => (
+            <Event key={ei} event={e} />
+          ))}
+        </div>
+      ) : (
+        <div>
+          loading...
+        </div>
+      )}
     </Column>
   );
 }
