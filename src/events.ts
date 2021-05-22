@@ -29,6 +29,7 @@ export interface EventData {
 }
 
 export interface AllEvents {
+  past: EventData[];
   upcoming: EventData[];
   all: EventData[];
 }
@@ -113,8 +114,10 @@ export function parseEvents(eventYaml: string) {
   }
   const all = sortEvents(flatten(dtos.map(convertEventDTO)));
 
+  const past = all.filter(e => e.end <= now).reverse();
   const upcoming = all.filter(e => e.end > now);
   const ret: AllEvents = {
+    past,
     upcoming,
     all,
   };

@@ -48,14 +48,14 @@ const EventKey = styled.div`
   align-items: center;
   flex-wrap: wrap;
 `;
-const EventLabel = styled.div<{ color: string, selected: boolean, }>`
+const EventLabel = styled.div<{ color: string, selected: boolean, stretch?: boolean, }>`
   cursor: pointer;
   margin: 0.3em;
   padding: 0.5em;
   box-sizing: border-box;
-  width: 7em;
   border-radius: 1em;
   ${props => `
+    width: ${props.stretch ? '20em' : '7em'};
     border: 0.2em solid ${props.color};
     ${props.selected ? `
       border-width: 0.4em;
@@ -86,14 +86,16 @@ function FilterLabel(props: {
 }
 
 export function App() {
+  const [showPast, setShowPast] = useState(false);
   const [filter, setFilter] = useState(undefined as EventType | undefined);
   const [events, setEvents] = useState(undefined as EventData[] | undefined);
 
   const getEvents = useCallback(async () => {
-    const { upcoming } = await fetchEvents();
-    const filtered = filter ? upcoming.filter(e => e.type === filter) : upcoming;
+    const { past, upcoming } = await fetchEvents();
+    const toFilter = showPast ? past : upcoming;
+    const filtered = filter ? toFilter.filter(e => e.type === filter) : toFilter;
     setEvents(filtered);
-  }, [filter]);
+  }, [showPast, filter]);
 
   useEffect(() => {
     getEvents();
@@ -117,6 +119,15 @@ export function App() {
           <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
           <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Stream} label='Stream'></FilterLabel>
           {/* <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Meetup'></FilterLabel> */}
+        </EventKey>
+        <EventKey>
+          <EventLabel
+            stretch={true}
+            selected={false}
+            color={'red'}
+            onClick={() => setShowPast(!showPast)}>
+            Switch to {showPast ? 'Upcoming' : 'Past'} Events
+          </EventLabel>
         </EventKey>
         {events ? (
           <div>
