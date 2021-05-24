@@ -12,9 +12,31 @@ events:
   # optional fields
   #   twitch: twitchname
   #   challonge: eventname
-  
+
   # please put new events at the top of the file
-  
+
+  - title: Tough Love Gauntlet NA 020
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet020
+    when:
+      - date: 2021/05/28
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 018
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu018
+    when:
+      - date: 2021/05/29
+        time: 12:30
+        hours: 2
+
   - title: "2BCU CommuniCup May: Tough Love Arena"
     description: Free online tournament for EU players
     type: tournament
@@ -24,7 +46,7 @@ events:
       - date: 2021/05/16
         time: 08:00 # 2pm CEST
         hours: 3
-  
+
   - title: "The Fruit Aisle: Everyone's Arena"
     description: An event where every set is BO5 and you must win a game with one character from each group
     type: tournament
@@ -35,7 +57,7 @@ events:
       - date: 2021/05/12
         time: 19:00
         hours: 3
-  
+
   - title: Tough Love Gauntlet NA 019
     description: Free online tournament every Friday night for North American players
     type: tournament
