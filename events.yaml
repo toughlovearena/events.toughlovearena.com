@@ -15,6 +15,16 @@ events:
 
   # please put new events at the top of the file
 
+  - title: "2BCU CommuniCup June: Tough Love Arena"
+    description: Free online tournament for EU players
+    type: tournament
+    twitch: 2BCU
+    challonge: 2BCUCCTLA6
+    when:
+      - date: 2021/06/13
+        time: 14:00 # 8pm CEST
+        hours: 3
+
   - title: Tough Love Gauntlet NA 020
     description: Free online tournament every Friday night for North American players
     type: tournament
@@ -36,16 +46,6 @@ events:
       - date: 2021/05/29
         time: 12:30
         hours: 2
-
-  - title: "2BCU CommuniCup June: Tough Love Arena"
-    description: Free online tournament for EU players
-    type: tournament
-    twitch: 2BCU
-    challonge: 2BCUCCTLA6
-    when:
-      - date: 2021/05/16
-        time: 14:00 # 8pm CEST
-        hours: 3
 
   - title: "2BCU CommuniCup May: Tough Love Arena"
     description: Free online tournament for EU players
