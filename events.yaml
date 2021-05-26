@@ -37,6 +37,16 @@ events:
         time: 12:30
         hours: 2
 
+  - title: "2BCU CommuniCup June: Tough Love Arena"
+    description: Free online tournament for EU players
+    type: tournament
+    twitch: 2BCU
+    challonge: 2BCUCCTLA6
+    when:
+      - date: 2021/05/16
+        time: 14:00 # 8pm CEST
+        hours: 3
+
   - title: "2BCU CommuniCup May: Tough Love Arena"
     description: Free online tournament for EU players
     type: tournament
