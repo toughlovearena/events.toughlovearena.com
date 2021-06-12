@@ -23,6 +23,7 @@ export interface EventData {
   image?: string;
   twitch?: string;
   challonge?: string;
+  matcherino?: string;
 
   start: Date;
   end: Date;
@@ -47,6 +48,7 @@ interface EventDTO {
   image?: string;
   twitch?: string;
   challonge?: string;
+  matcherino?: string;
 
   when: EventWhenDTO[];
 }
@@ -90,6 +92,7 @@ function convertEventDTO(dto: EventDTO): EventData[] {
       image: dto.image,
       twitch: dto.twitch,
       challonge: dto.challonge,
+      matcherino: dto.matcherino,
 
       start,
       end,

@@ -69,6 +69,14 @@ export function Event(props: { event: EventData }) {
     });
     calEventDescription += `${url}\n`;
   }
+  if (event.matcherino) {
+    const url = 'https://matcherino.com/tournaments/' + event.matcherino;
+    links.push({
+      name: 'matcherino',
+      url,
+    });
+    calEventDescription += `${url}\n`;
+  }
   if (event.twitch) {
     const url = 'https://twitch.tv/' + event.twitch;
     links.push({
