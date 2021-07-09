@@ -14,6 +14,28 @@ events:
   #   challonge: eventname
 
   # please put new events at the top of the file
+  
+  - title: Tough Love Gauntlet NA 026
+    description: "Free online tournament every Friday night for North American players. Half a Year of Tough Love Gauntlet NA! For the special occasion the Game's Developer, Paul, will be joining on Commentary!"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet026
+    when:
+      - date: 2021/07/09
+        time: 18:30
+        hours: 2  
+
+  - title: Tough Love Gauntlet EU 023
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu023
+    when:
+      - date: 2021/07/10
+        time: 13:00
+        hours: 2
 
   - title: Six Month Anniversary Tournament
     description: Free online tournament to celebrate the 6 month anniversary! $100+ payout to Top 3!
