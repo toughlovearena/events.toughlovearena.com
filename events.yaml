@@ -27,7 +27,7 @@ events:
         hours: 2
 
   - title: Tough Love Gauntlet EU 026
-    description: "Free online tournament every Saturday night for EU players. Half a Year of Tough Love Gauntlet NA!"
+    description: "Free online tournament every Saturday night for EU players. Half a Year of Tough Love Gauntlet EU!"
     type: tournament
     image: tng.png
     twitch: theapexcollective
