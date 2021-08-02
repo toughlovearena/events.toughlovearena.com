@@ -350,13 +350,28 @@ events:
     when:
       - date: 2021/05/03
         time: 20:00
-        hours: 1
+        hours: 2
       - date: 2021/06/07
         time: 20:00
-        hours: 1
+        hours: 2
       - date: 2021/07/05
         time: 20:00
+        hours: 2
+      - date: 2021/08/02
+        time: 20:00
         hours: 1
+      - date: 2021/09/13
+        time: 20:00
+        hours: 2
+      - date: 2021/10/04
+        time: 20:00
+        hours: 2
+      - date: 2021/11/01
+        time: 20:00
+        hours: 2
+      - date: 2021/12/06
+        time: 20:00
+        hours: 2
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
@@ -434,17 +449,5 @@ events:
         time: 14:00
         hours: 3
       - date: 2021/07/15
-        time: 14:00
-        hours: 3
-      - date: 2021/07/20
-        time: 14:00
-        hours: 3
-      - date: 2021/07/22
-        time: 14:00
-        hours: 3
-      - date: 2021/07/27
-        time: 14:00
-        hours: 3
-      - date: 2021/07/29
         time: 14:00
         hours: 3
