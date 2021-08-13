@@ -16,7 +16,7 @@ events:
   # please put new events at the top of the file
 
   - title: Tough Love Gauntlet NA 031
-    description: Free online tournament every Friday night for North American players
+    description: "Free online tournament every Friday night for North American players. Rosa and Spiral will be joining for Commentary!"
     type: tournament
     image: tng.png
     twitch: theapexcollective
