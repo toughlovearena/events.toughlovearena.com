@@ -31,7 +31,7 @@ events:
     type: tournament
     image: mpaulweeks.jpg
     twitch: mpaulweeks
-    challonge: https://quarterlyrapport.challonge.com/quar4tla
+    challonge: 'https://quarterlyrapport.challonge.com/quar4tla'
     when:
       - date: 2021/11/12
         time: 19:00
