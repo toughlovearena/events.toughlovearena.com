@@ -15,6 +15,28 @@ events:
 
   # please put new events at the top of the file
 
+  - title: TLA Halloween Tournament
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlahalloween
+    when:
+      - date: 2021/10/15
+        time: 19:00
+        hours: 3
+
+  - title: Quarantined 4: Tough Love Arena
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: https://quarterlyrapport.challonge.com/quar4tla
+    when:
+      - date: 2021/11/12
+        time: 19:00
+        hours: 3
+
   - title: Tough Love Gauntlet NA 035
     description: Free online tournament every Friday night for North American players
     type: tournament
@@ -581,5 +603,11 @@ events:
         time: 14:00
         hours: 3
       - date: 2021/07/15
+        time: 14:00
+        hours: 3
+      - date: 2021/09/07
+        time: 14:00
+        hours: 3
+      - date: 2021/09/09
         time: 14:00
         hours: 3
