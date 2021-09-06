@@ -62,7 +62,7 @@ export function Event(props: { event: EventData }) {
   const links: Link[] = [];
   let calEventDescription = event.description ? event.description + '\n\n' : '';
   if (event.challonge) {
-    const url = 'https://challonge.com/' + event.challonge;
+    const url = event.challonge.includes('challonge.com') ? event.challonge : ('https://challonge.com/' + event.challonge);
     links.push({
       name: 'challonge',
       url,
