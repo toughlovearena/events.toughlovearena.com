@@ -26,12 +26,12 @@ events:
         time: 19:00
         hours: 3
 
-  - title: 'Quarantined 4: Tough Love Arena'
+  - title: "Quarantined 4: Tough Love Arena"
     description: Free online tournament every Friday night for North American players
     type: tournament
     image: mpaulweeks.jpg
     twitch: mpaulweeks
-    challonge: 'https://quarterlyrapport.challonge.com/quar4tla'
+    challonge: "https://quarterlyrapport.challonge.com/quar4tla"
     when:
       - date: 2021/11/12
         time: 19:00
