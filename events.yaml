@@ -16,7 +16,7 @@ events:
   # please put new events at the top of the file
 
   - title: TLA Halloween Tournament
-    description: Free online tournament every Friday night for North American players
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
     image: mpaulweeks.jpg
     twitch: mpaulweeks
@@ -27,7 +27,7 @@ events:
         hours: 3
 
   - title: "Quarantined 4: Tough Love Arena"
-    description: Free online tournament every Friday night for North American players
+    description: Official tournament! $100 Pot split across Top 3. Details in the Challonge
     type: tournament
     image: mpaulweeks.jpg
     twitch: mpaulweeks
