@@ -15,6 +15,28 @@ events:
 
   # please put new events at the top of the file
 
+  - title: Tough Love Gauntlet NA 036
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet036
+    when:
+      - date: 2021/09/17
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 033
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu033
+    when:
+      - date: 2021/09/18
+        time: 13:00
+        hours: 2
+
   - title: TLA Halloween Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
