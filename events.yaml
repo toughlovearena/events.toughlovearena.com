@@ -115,6 +115,14 @@ events:
         time: 19:00
         hours: 3
 
+  - title: TLA @ Balance Patch
+    description: Offline event at Balance Patch in Boston! Join to earn exclusive skins for your account + meet the dev!
+    type: tournament
+    when:
+      - date: 2021/10/22
+        time: 20:00
+        hours: 3
+
   - title: "Quarantined 4: Tough Love Arena"
     description: Official tournament! $100 Pot split across Top 3. Details in the Challonge
     type: tournament
