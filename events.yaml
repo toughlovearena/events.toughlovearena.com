@@ -744,3 +744,27 @@ events:
       - date: 2021/10/28
         time: 14:00
         hours: 3
+      - date: 2021/11/02
+        time: 14:00
+        hours: 3
+      - date: 2021/11/04
+        time: 14:00
+        hours: 3
+      - date: 2021/11/09
+        time: 14:00
+        hours: 3
+      - date: 2021/11/11
+        time: 14:00
+        hours: 3
+      - date: 2021/11/16
+        time: 14:00
+        hours: 3
+      - date: 2021/11/18
+        time: 14:00
+        hours: 3
+      - date: 2021/11/30
+        time: 14:00
+        hours: 3
+      - date: 2021/12/02
+        time: 14:00
+        hours: 3
