@@ -14,12 +14,12 @@ events:
   #   challonge: eventname
 
   # please put new events at the top of the file
-  - title: "Tough Love Gauntlet Modded 002"
-    description: "Free online tournament every Saturday night with a specific roster for Mod Enthusiasts"
+  - title: Tough Love Gauntlet Modded 002
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
     image: tng.png
     twitch: theapexcollective
-    challonge: "https://challonge.com/TLGMOD002"
+    challonge: TLGMOD002
     when:
       - date: 2021/10/23
         time: 14:30
