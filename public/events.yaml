@@ -22,7 +22,7 @@ events:
     challonge: TLGMOD002
     when:
       - date: 2021/10/23
-        time: 14:30
+        time: 14:00
         hours: 2
 
   - title: Tough Love Gauntlet NA 039
