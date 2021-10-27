@@ -128,6 +128,7 @@ events:
   - title: TLA @ Balance Patch
     description: Offline event at Balance Patch in Boston! Join to earn exclusive skins for your account + meet the dev!
     type: meetup
+    challonge: eesbn4h3
     when:
       - date: 2021/10/22
         time: 18:00
