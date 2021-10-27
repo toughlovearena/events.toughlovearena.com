@@ -53,7 +53,9 @@ const EventLabel = styled.div<{ color: string, selected: boolean, stretch?: bool
       border-width: 0.4em;
     ` : ``}
   `}
-
+`;
+const NoEvents = styled.h2`
+  font-style: italic;
 `;
 
 function FilterLabel(props: {
@@ -109,26 +111,36 @@ export function App() {
         <FilterLabel filter={filter} setFilter={setFilter} eventType={undefined} label='All'></FilterLabel>
         <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Tournament} label='Tournament'></FilterLabel>
         <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Stream} label='Stream'></FilterLabel>
-        {/* <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Meetup'></FilterLabel> */}
+        <FilterLabel filter={filter} setFilter={setFilter} eventType={EventType.Meetup} label='Offline'></FilterLabel>
       </EventKey>
       <EventKey>
         <EventLabel
           stretch={true}
           selected={false}
-          color={'red'}
+          color={'seagreen'}
           onClick={() => setShowPast(!showPast)}>
           Switch to {showPast ? 'Upcoming' : 'Past'} Events
-          </EventLabel>
+        </EventLabel>
       </EventKey>
       {events ? (
-        <div>
-          {events.map((e, ei) => (
-            <Event key={ei} event={e} />
-          ))}
-        </div>
+        events.length ? (
+          <div>
+            {events.map((e, ei) => (
+              <Event key={ei} event={e} />
+            ))}
+          </div>
+        ) : (
+          <div>
+            <NoEvents>
+              no events found
+            </NoEvents>
+          </div>
+        )
       ) : (
         <div>
-          loading...
+          <NoEvents>
+            loading...
+          </NoEvents>
         </div>
       )}
     </Column>
