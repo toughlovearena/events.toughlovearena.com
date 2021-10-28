@@ -14,6 +14,28 @@ events:
   #   challonge: eventname
 
   # please put new events at the top of the file
+  - title: Tough Love Gauntlet Modded 003
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD003
+    when:
+      - date: 2021/10/30
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 040
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet040
+    when:
+      - date: 2021/10/29
+        time: 18:30
+        hours: 2
+
   - title: Tough Love Gauntlet Modded 002
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
@@ -341,7 +363,7 @@ events:
     when:
       - date: 2021/07/17
         time: 13:00
-        hours: 2 
+        hours: 2
 
   - title: Tough Love Gauntlet NA 026
     description: "Free online tournament every Friday night for North American players. Half a Year of Tough Love Gauntlet NA! For the special occasion the Game's Developer, Paul, will be joining on Commentary!"
@@ -352,7 +374,7 @@ events:
     when:
       - date: 2021/07/09
         time: 18:30
-        hours: 2  
+        hours: 2
 
   - title: Tough Love Gauntlet EU 023
     description: Free online tournament every Saturday night for EU players
