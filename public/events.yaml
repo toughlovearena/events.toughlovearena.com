@@ -14,6 +14,16 @@ events:
   #   challonge: eventname
 
   # please put new events at the top of the file
+
+  - title: Mid Tier 001
+    description: "Free online tournament for beginners"
+    type: tournament
+    challonge: MidTier001
+    when:
+      - date: 2021/11/14
+        time: 15:00
+        hours: 2
+
   - title: Tough Love Gauntlet Modded 004
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
