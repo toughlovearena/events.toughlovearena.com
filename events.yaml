@@ -24,6 +24,17 @@ events:
         time: 15:00
         hours: 2
 
+  - title: Tough Love Gauntlet Modded 005
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD005
+    when:
+      - date: 2021/11/13
+        time: 14:00
+        hours: 2
+
   - title: Tough Love Gauntlet Modded 004
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
