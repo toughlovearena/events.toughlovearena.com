@@ -869,3 +869,51 @@ events:
       - date: 2021/12/02
         time: 14:00
         hours: 3
+      - date: 2021/12/07
+        time: 14:00
+        hours: 3
+      - date: 2021/12/09
+        time: 14:00
+        hours: 3
+      - date: 2021/12/14
+        time: 14:00
+        hours: 3
+      - date: 2021/12/16
+        time: 14:00
+        hours: 3
+      - date: 2021/12/21
+        time: 14:00
+        hours: 3
+      - date: 2021/12/23
+        time: 14:00
+        hours: 3
+      - date: 2022/01/04
+        time: 14:00
+        hours: 3
+      - date: 2022/01/06
+        time: 14:00
+        hours: 3
+      - date: 2022/01/11
+        time: 14:00
+        hours: 3
+      - date: 2022/01/13
+        time: 14:00
+        hours: 3
+      - date: 2022/01/18
+        time: 14:00
+        hours: 3
+      - date: 2022/01/20
+        time: 14:00
+        hours: 3
+      - date: 2022/01/25
+        time: 14:00
+        hours: 3
+      - date: 2022/02/03
+        time: 14:00
+        hours: 3
+      - date: 2022/02/08
+        time: 14:00
+        hours: 3
+      - date: 2022/02/10
+        time: 14:00
+        hours: 3
