@@ -932,15 +932,6 @@ events:
       - date: 2021/12/14
         time: 14:00
         hours: 3
-      - date: 2021/12/16
-        time: 14:00
-        hours: 3
-      - date: 2021/12/21
-        time: 14:00
-        hours: 3
-      - date: 2021/12/23
-        time: 14:00
-        hours: 3
       - date: 2022/01/04
         time: 14:00
         hours: 3
