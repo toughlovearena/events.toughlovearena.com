@@ -15,6 +15,17 @@ events:
 
   # please put new events at the top of the file
 
+  - title: One Year Anniversary Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tla1year
+    when:
+      - date: 2022/01/14
+        time: 19:00
+        hours: 3
+
   - title: Tough Love Gauntlet Modded 009
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
