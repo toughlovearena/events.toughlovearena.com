@@ -817,6 +817,15 @@ events:
       - date: 2021/12/06
         time: 20:00
         hours: 2
+      - date: 2022/01/03
+        time: 20:00
+        hours: 2
+      - date: 2022/02/07
+        time: 20:00
+        hours: 2
+      - date: 2022/03/07
+        time: 20:00
+        hours: 2
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
