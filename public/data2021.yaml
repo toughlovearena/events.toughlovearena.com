@@ -15,39 +15,6 @@ events:
 
   # please put new events at the top of the file
 
-  - title: Tough Love Gauntlet Modded 011
-    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
-    type: tournament
-    image: tng.png
-    twitch: theapexcollective
-    challonge: TLGMOD011
-    when:
-      - date: 2022/01/08
-        time: 14:00
-        hours: 2
-
-  - title: Tough Love Gauntlet NA 047
-    description: Free online tournament every Friday night for North American players
-    type: tournament
-    image: tng.png
-    twitch: theapexcollective
-    challonge: ToughLoveGauntlet047
-    when:
-      - date: 2022/01/07
-        time: 18:30
-        hours: 2
-
-  - title: One Year Anniversary Tournament
-    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
-    type: tournament
-    image: mpaulweeks.jpg
-    twitch: mpaulweeks
-    challonge: tla1year
-    when:
-      - date: 2022/01/14
-        time: 19:00
-        hours: 3
-
   - title: Tough Love Gauntlet Modded 010
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
@@ -861,15 +828,6 @@ events:
       - date: 2021/12/06
         time: 20:00
         hours: 2
-      - date: 2022/01/03
-        time: 20:00
-        hours: 2
-      - date: 2022/02/07
-        time: 20:00
-        hours: 2
-      - date: 2022/03/07
-        time: 20:00
-        hours: 2
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
@@ -1016,35 +974,5 @@ events:
         time: 14:00
         hours: 3
       - date: 2021/12/14
-        time: 14:00
-        hours: 3
-      - date: 2022/01/04
-        time: 14:00
-        hours: 3
-      - date: 2022/01/06
-        time: 14:00
-        hours: 3
-      - date: 2022/01/11
-        time: 14:00
-        hours: 3
-      - date: 2022/01/13
-        time: 14:00
-        hours: 3
-      - date: 2022/01/18
-        time: 14:00
-        hours: 3
-      - date: 2022/01/20
-        time: 14:00
-        hours: 3
-      - date: 2022/01/25
-        time: 14:00
-        hours: 3
-      - date: 2022/02/03
-        time: 14:00
-        hours: 3
-      - date: 2022/02/08
-        time: 14:00
-        hours: 3
-      - date: 2022/02/10
         time: 14:00
         hours: 3

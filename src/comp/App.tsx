@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { fetchEvents, EventData, EventType, getEventColor } from '../events';
+import { EventData, EventType, getEventColor, EventManager } from '../events';
 import { Event } from './Event';
 
 const Column = styled.div`
@@ -85,7 +85,7 @@ export function App() {
   const [events, setEvents] = useState(undefined as EventData[] | undefined);
 
   const getEvents = useCallback(async () => {
-    const { past, upcoming } = await fetchEvents();
+    const { past, upcoming } = await new EventManager().fetchEvents();
     const toFilter = showPast ? past : upcoming;
     const filtered = filter ? toFilter.filter(e => e.type === filter) : toFilter;
     setEvents(filtered);

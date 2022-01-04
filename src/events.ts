@@ -108,28 +108,42 @@ function flatten<T>(arr: T[][]): T[] {
   return out;
 }
 
-export function parseEvents(eventYaml: string) {
+async function fetchEventFile(path: string): Promise<string> {
   const now = new Date();
-  const data = YAML.parse(eventYaml) as YamlDTO;
-  const dtos = data.events;
-  if (!dtos) {
-    throw new Error('events yaml is not formatted correctly');
-  }
-  const all = sortEvents(flatten(dtos.map(convertEventDTO)));
-
-  const past = all.filter(e => e.end <= now).reverse();
-  const upcoming = all.filter(e => e.end > now);
-  const ret: AllEvents = {
-    past,
-    upcoming,
-    all,
-  };
-  return ret;
+  const resp = await fetch(`${path}?v=${now.getTime()}`);
+  const text = await resp.text();
+  return text;
 }
 
-export async function fetchEvents(): Promise<AllEvents> {
-  const now = new Date();
-  const resp = await fetch(`events.yaml?v=${now.getTime()}`);
-  const text = await resp.text();
-  return parseEvents(text);
+export class EventManager {
+  _parseYaml(text: string): EventDTO[] {
+    const data = YAML.parse(text) as YamlDTO;
+    const dtos = data.events;
+    if (!dtos) {
+      throw new Error('events yaml is not formatted correctly');
+    }
+    return dtos;
+  }
+
+  _organizeEvents(dtos: EventDTO[]): AllEvents {
+    const now = new Date();
+    const events = flatten(dtos.map(convertEventDTO));
+    const all = sortEvents(events);
+    const past = all.filter(e => e.end <= now).reverse();
+    const upcoming = all.filter(e => e.end > now);
+    return {
+      past,
+      upcoming,
+      all,
+    };
+  }
+
+  async fetchEvents(): Promise<AllEvents> {
+    const eventFiles = await Promise.all([
+      'data2021.yaml',
+      'data2022.yaml',
+    ].map(fetchEventFile));
+    const eventDTOs = eventFiles.map(file => this._parseYaml(file));
+    return this._organizeEvents(flatten(eventDTOs));
+  }
 }
