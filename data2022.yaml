@@ -5,7 +5,7 @@ events:
   #   description: Blurb about your event
   #   type: tournament | stream | meetup
   #   when:
-  #     - date: 2021/01/01
+  #     - date: 2022/01/01
   #       time: 18:30
   #       hours: 3
 
@@ -26,8 +26,8 @@ events:
         time: 14:00
         hours: 2
 
-  - title: Tough Love Gauntlet NA 047
-    description: Free online tournament every Friday night for North American players
+  - title: Tough Love Gauntlet 047
+    description: Free online tournament every Friday night
     type: tournament
     image: tng.png
     twitch: theapexcollective
