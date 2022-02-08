@@ -166,9 +166,18 @@ events:
       - date: 2022/02/03
         time: 14:00
         hours: 3
-      - date: 2022/02/08
+      - date: 2022/02/10
         time: 14:00
         hours: 3
-      - date: 2022/02/10
+      - date: 2022/02/15
+        time: 14:00
+        hours: 3
+      - date: 2022/02/17
+        time: 14:00
+        hours: 3
+      - date: 2022/02/22
+        time: 14:00
+        hours: 3
+      - date: 2022/02/24
         time: 14:00
         hours: 3
