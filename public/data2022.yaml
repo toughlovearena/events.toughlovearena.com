@@ -103,6 +103,28 @@ events:
         time: 18:30
         hours: 2
 
+ - title: Tough Love Gauntlet Modded 015
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD015
+    when:
+      - date: 2022/02/12
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 051
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet051
+    when:
+      - date: 2022/02/11
+        time: 18:30
+        hours: 2
+
   - title: One Year Anniversary Tournament
     description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
     type: tournament
