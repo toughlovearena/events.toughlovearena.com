@@ -225,3 +225,33 @@ events:
       - date: 2022/02/24
         time: 14:00
         hours: 3
+      - date: 2022/03/01
+        time: 14:00
+        hours: 3
+      - date: 2022/03/03
+        time: 14:00
+        hours: 3
+      - date: 2022/03/08
+        time: 14:00
+        hours: 3
+      - date: 2022/03/10
+        time: 14:00
+        hours: 3
+      - date: 2022/03/15
+        time: 14:00
+        hours: 3
+      - date: 2022/03/17
+        time: 14:00
+        hours: 3
+      - date: 2022/03/22
+        time: 14:00
+        hours: 3
+      - date: 2022/03/25
+        time: 14:00
+        hours: 3
+      - date: 2022/03/29
+        time: 14:00
+        hours: 3
+      - date: 2022/03/31
+        time: 14:00
+        hours: 3
