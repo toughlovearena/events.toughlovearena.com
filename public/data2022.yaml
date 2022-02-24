@@ -15,7 +15,7 @@ events:
 
   # please put new events at the top of the file
 
- - title: Tough Love Gauntlet Modded 017
+  - title: Tough Love Gauntlet Modded 017
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
     image: tng.png
