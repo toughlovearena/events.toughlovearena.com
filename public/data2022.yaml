@@ -37,6 +37,16 @@ events:
         time: 18:30
         hours: 2
 
+  - title: "FLOGNAR WORLD CUP #1"
+    description:
+    type: tournament
+    image: tng.png
+    challonge: 1wpze627
+    when:
+      - date: 2022/03/03
+        time: 18:00
+        hours: 2
+
   - title: "Lazy Sunday #8"
     description: "Free online tournament"
     type: tournament
