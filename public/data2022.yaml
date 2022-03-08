@@ -15,6 +15,17 @@ events:
 
   # please put new events at the top of the file
 
+  - title: Completely Normal Tournament
+    description: Official tournament! Very normal! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlanormal
+    when:
+      - date: 2022/04/02
+        time: 19:00
+        hours: 3
+
   - title: Tough Love Gauntlet Modded 018
     description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
     type: tournament
