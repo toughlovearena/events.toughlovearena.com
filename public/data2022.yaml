@@ -248,6 +248,15 @@ events:
       - date: 2022/03/07
         time: 20:00
         hours: 2
+      - date: 2022/04/04
+        time: 20:00
+        hours: 2
+      - date: 2022/05/02
+        time: 20:00
+        hours: 2
+      - date: 2022/06/06
+        time: 20:00
+        hours: 2
 
   - title: Official Game Dev Stream
     description: Watch the game development process and chat with the creators of TLA
@@ -303,9 +312,6 @@ events:
       - date: 2022/03/03
         time: 14:00
         hours: 3
-      - date: 2022/03/08
-        time: 14:00
-        hours: 3
       - date: 2022/03/10
         time: 14:00
         hours: 3
@@ -325,5 +331,23 @@ events:
         time: 14:00
         hours: 3
       - date: 2022/03/31
+        time: 14:00
+        hours: 3
+      - date: 2022/04/05
+        time: 14:00
+        hours: 3
+      - date: 2022/04/12
+        time: 14:00
+        hours: 3
+      - date: 2022/04/14
+        time: 14:00
+        hours: 3
+      - date: 2022/04/19
+        time: 14:00
+        hours: 3
+      - date: 2022/04/26
+        time: 14:00
+        hours: 3
+      - date: 2022/04/28
         time: 14:00
         hours: 3
