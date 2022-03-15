@@ -232,9 +232,9 @@ events:
       - date: 2022/01/14
         time: 19:00
         hours: 3
-        
+
   - title: TLA @ PAX East
-    description: "Come meet the developers at the PAX East convention in Boston! Booth #18096"
+    description: "Come meet the developers at the PAX East convention in Boston and play some games! Booth #18096"
     type: meetup
     when:
       - date: 2022/04/21
