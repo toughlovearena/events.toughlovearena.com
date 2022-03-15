@@ -232,6 +232,23 @@ events:
       - date: 2022/01/14
         time: 19:00
         hours: 3
+        
+  - title: TLA @ PAX East
+    description: "Come meet the developers at the PAX East convention in Boston! Booth #18096"
+    type: meetup
+    when:
+      - date: 2022/04/21
+        time: 10:00
+        hours: 8
+      - date: 2022/04/22
+        time: 10:00
+        hours: 8
+      - date: 2022/04/23
+        time: 10:00
+        hours: 8
+      - date: 2022/04/24
+        time: 10:00
+        hours: 8
 
   - title: State of the Game
     description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
