@@ -100,7 +100,7 @@ export function Event(props: { event: EventData }) {
       <EventDescription>
         {event.description}
       </EventDescription>
-      {links.length && (
+      {links.length ? (
         <EventLinks>
           {links.map((link, index) => (
             <span key={index} >
@@ -109,7 +109,7 @@ export function Event(props: { event: EventData }) {
             </span>
           ))}
         </EventLinks>
-      )}
+      ) : undefined}
       <EventTime>
         <EventStart>
           {event.start.toLocaleString()}
