@@ -405,9 +405,6 @@ events:
       - date: 2022/03/31
         time: 14:00
         hours: 3
-      - date: 2022/04/05
-        time: 14:00
-        hours: 3
       - date: 2022/04/12
         time: 14:00
         hours: 3
