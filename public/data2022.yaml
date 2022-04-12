@@ -15,6 +15,28 @@ events:
 
   # please put new events at the top of the file
 
+  - title: Tough Love Gauntlet Modded 022
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD022
+    when:
+      - date: 2022/04/09
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 059
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet059
+    when:
+      - date: 2022/04/08
+        time: 18:30
+        hours: 2
+
   - title: Tough Love Gauntlet 058
     description: Free online tournament every Friday night
     type: tournament
