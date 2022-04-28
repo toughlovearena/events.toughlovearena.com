@@ -332,6 +332,20 @@ events:
         time: 19:00
         hours: 3
 
+  - title: TLA @ Combo Breaker
+    description: "Come meet the developers at Combo Breaker"
+    type: meetup
+    when:
+      - date: 2022/05/27
+        time: 10:00
+        hours: 8
+      - date: 2022/05/28
+        time: 10:00
+        hours: 8
+      - date: 2022/05/29
+        time: 10:00
+        hours: 8
+
   - title: TLA @ PAX East
     description: "Come meet the developers at the PAX East convention in Boston and play some games! Booth #18096"
     type: meetup
