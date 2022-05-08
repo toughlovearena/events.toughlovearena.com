@@ -503,13 +503,13 @@ events:
       - date: 2022/05/05
         time: 14:00
         hours: 3
-      - date: 2022/05/13
+      - date: 2022/05/12
         time: 19:00
         hours: 3
       - date: 2022/05/16
         time: 19:00
         hours: 3
-      - date: 2022/05/20
+      - date: 2022/05/19
         time: 19:00
         hours: 3
       - date: 2022/05/23
@@ -518,6 +518,6 @@ events:
       - date: 2022/05/30
         time: 19:00
         hours: 3
-      - date: 2022/06/04
+      - date: 2022/06/02
         time: 19:00
         hours: 3
