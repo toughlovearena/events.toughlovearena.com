@@ -36,6 +36,6 @@ jobs:
           cd about.toughlovearena.com
           git config --global user.email "mpaulweeks@gmail.com"
           git config --global user.name "mpaulweeks"
-          git add public/data/fame.yaml
-          git commit -m "fame $timestamp"
+          git add public/data/events.yaml
+          git commit -m "events $timestamp"
           git push
