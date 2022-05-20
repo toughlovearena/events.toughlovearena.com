@@ -1,0 +1,41 @@
+name: Push data to about.tla
+
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Checkout about.toughlovearena.com
+        uses: actions/checkout@v2
+        with:
+          repository: toughlovearena/about.toughlovearena.com
+          path: about.toughlovearena.com
+          token: ${{ secrets.PAT }}
+
+      - name: Copy over changelog.yaml and commit
+        run: |
+          timestamp=$(date  +"%Y/%m/%d %H:%M:%S")
+          cp public/data2022.yaml about.toughlovearena.com/public/data/events.yaml
+          cd about.toughlovearena.com
+          git config --global user.email "mpaulweeks@gmail.com"
+          git config --global user.name "mpaulweeks"
+          git add public/data/fame.yaml
+          git commit -m "fame $timestamp"
+          git push
