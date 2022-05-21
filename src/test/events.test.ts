@@ -5,7 +5,7 @@ describe('events.ts', () => {
   const sut = new EventManager();
 
   test('parseYaml > organizeEvents', () => {
-    const buffer = fs.readFileSync('public/data2021.yaml');
+    const buffer = fs.readFileSync('public/data.yaml');
     const eventsYaml = buffer.toString();
     const data = sut._organizeEvents(sut._parseYaml(eventsYaml));
     expect(data.past.length).toBeGreaterThan(0);
