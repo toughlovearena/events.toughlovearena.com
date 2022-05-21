@@ -1,0 +1,1531 @@
+events:
+  # required fields
+  # - title: "Tough Love Gauntlet #15"
+  #   description: Blurb about your event
+  #   type: tournament | stream | meetup
+  #   when:
+  #     - date: 2022/01/01
+  #       time: 18:30
+  #       hours: 3
+
+  # optional fields
+  #   twitch: twitchname
+  #   challonge: eventname
+
+  # please put new events at the top of the file
+
+  # 2022
+
+  - title: Tough Love Gauntlet Modded 025
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD025
+    when:
+      - date: 2022/05/21
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 064
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet064
+    when:
+      - date: 2022/05/20
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet 063
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet063
+    when:
+      - date: 2022/05/13
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet 062
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet062
+    when:
+      - date: 2022/05/06
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 024
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD024
+    when:
+      - date: 2022/04/30
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 061
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet061
+    when:
+      - date: 2022/04/29
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 023
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD023
+    when:
+      - date: 2022/04/23
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 060
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet060
+    when:
+      - date: 2022/04/22
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 022
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD022
+    when:
+      - date: 2022/04/09
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 059
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet059
+    when:
+      - date: 2022/04/08
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet 058
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet058
+    when:
+      - date: 2022/04/01
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 021
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD021
+    when:
+      - date: 2022/03/26
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 057
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet057
+    when:
+      - date: 2022/03/25
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 020
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD020
+    when:
+      - date: 2022/03/19
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 056
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet056
+    when:
+      - date: 2022/03/18
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 019
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD019
+    when:
+      - date: 2022/03/12
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 055
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet055
+    when:
+      - date: 2022/03/11
+        time: 18:30
+        hours: 2
+
+  - title: Completely Normal Tournament
+    description: Official tournament! Very normal! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlanormal
+    when:
+      - date: 2022/04/02
+        time: 19:00
+        hours: 3
+
+  - title: Tough Love Gauntlet Modded 018
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD018
+    when:
+      - date: 2022/03/05
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 054
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet054
+    when:
+      - date: 2022/03/04
+        time: 18:30
+        hours: 2
+
+  - title: "FLOGNAR WORLD CUP #1"
+    description:
+    type: tournament
+    image: tng.png
+    challonge: 1wpze627
+    when:
+      - date: 2022/03/03
+        time: 18:00
+        hours: 2
+
+  - title: "Lazy Sunday #8"
+    description: "Free online tournament"
+    type: tournament
+    image: tng.png
+    challonge: bringinitbackbaybeee
+    when:
+      - date: 2022/02/27
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 016
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD016
+    when:
+      - date: 2022/02/19
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 052
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet052
+    when:
+      - date: 2022/02/18
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 015
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD015
+    when:
+      - date: 2022/02/12
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 051
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet051
+    when:
+      - date: 2022/02/11
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 014
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD014
+    when:
+      - date: 2022/02/05
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 050
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet050
+    when:
+      - date: 2022/02/04
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 013
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD013
+    when:
+      - date: 2022/01/29
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 049
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet049
+    when:
+      - date: 2022/01/28
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 012
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD012
+    when:
+      - date: 2022/01/22
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 048
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet048
+    when:
+      - date: 2022/01/21
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 011
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD011
+    when:
+      - date: 2022/01/08
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet 047
+    description: Free online tournament every Friday night
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet047
+    when:
+      - date: 2022/01/07
+        time: 18:30
+        hours: 2
+
+  - title: One Year Anniversary Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tla1year
+    when:
+      - date: 2022/01/14
+        time: 19:00
+        hours: 3
+
+  - title: TLA @ Combo Breaker
+    description: "Come meet the developers at Combo Breaker"
+    type: meetup
+    when:
+      - date: 2022/05/27
+        time: 10:00
+        hours: 8
+      - date: 2022/05/28
+        time: 10:00
+        hours: 8
+      - date: 2022/05/29
+        time: 10:00
+        hours: 8
+
+  - title: TLA @ PAX East
+    description: "Come meet the developers at the PAX East convention in Boston and play some games! Booth #18096"
+    type: meetup
+    when:
+      - date: 2022/04/21
+        time: 10:00
+        hours: 8
+      - date: 2022/04/22
+        time: 10:00
+        hours: 8
+      - date: 2022/04/23
+        time: 10:00
+        hours: 8
+      - date: 2022/04/24
+        time: 10:00
+        hours: 8
+
+  - title: State of the Game
+    description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2022/01/03
+        time: 20:00
+        hours: 2
+      - date: 2022/02/07
+        time: 20:00
+        hours: 2
+      - date: 2022/03/07
+        time: 20:00
+        hours: 2
+      - date: 2022/04/04
+        time: 20:00
+        hours: 2
+      - date: 2022/05/09
+        time: 20:00
+        hours: 2
+      - date: 2022/06/06
+        time: 20:00
+        hours: 2
+
+  - title: Official Game Dev Stream
+    description: Watch the game development process and chat with the creators of TLA
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2022/01/04
+        time: 14:00
+        hours: 3
+      - date: 2022/01/06
+        time: 14:00
+        hours: 3
+      - date: 2022/01/11
+        time: 14:00
+        hours: 3
+      - date: 2022/01/13
+        time: 14:00
+        hours: 3
+      - date: 2022/01/18
+        time: 14:00
+        hours: 3
+      - date: 2022/01/20
+        time: 14:00
+        hours: 3
+      - date: 2022/01/25
+        time: 14:00
+        hours: 3
+      - date: 2022/01/27
+        time: 14:00
+        hours: 3
+      - date: 2022/02/01
+        time: 14:00
+        hours: 3
+      - date: 2022/02/03
+        time: 14:00
+        hours: 3
+      - date: 2022/02/10
+        time: 14:00
+        hours: 3
+      - date: 2022/02/15
+        time: 14:00
+        hours: 3
+      - date: 2022/02/17
+        time: 14:00
+        hours: 3
+      - date: 2022/02/22
+        time: 14:00
+        hours: 3
+      - date: 2022/03/01
+        time: 14:00
+        hours: 3
+      - date: 2022/03/03
+        time: 14:00
+        hours: 3
+      - date: 2022/03/10
+        time: 14:00
+        hours: 3
+      - date: 2022/03/15
+        time: 14:00
+        hours: 3
+      - date: 2022/03/17
+        time: 14:00
+        hours: 3
+      - date: 2022/03/22
+        time: 14:00
+        hours: 3
+      - date: 2022/03/25
+        time: 14:00
+        hours: 3
+      - date: 2022/03/29
+        time: 14:00
+        hours: 3
+      - date: 2022/03/31
+        time: 14:00
+        hours: 3
+      - date: 2022/04/12
+        time: 14:00
+        hours: 3
+      - date: 2022/04/14
+        time: 14:00
+        hours: 3
+      - date: 2022/04/19
+        time: 14:00
+        hours: 3
+      - date: 2022/04/28
+        time: 14:00
+        hours: 3
+      - date: 2022/05/03
+        time: 14:00
+        hours: 3
+      - date: 2022/05/05
+        time: 14:00
+        hours: 3
+      - date: 2022/05/12
+        time: 19:00
+        hours: 3
+      - date: 2022/05/16
+        time: 19:00
+        hours: 3
+      - date: 2022/05/19
+        time: 19:00
+        hours: 3
+      - date: 2022/05/23
+        time: 19:00
+        hours: 3
+      - date: 2022/05/30
+        time: 19:00
+        hours: 3
+      - date: 2022/06/02
+        time: 19:00
+        hours: 3
+
+  # 2021
+
+  - title: Tough Love Gauntlet Modded 010
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD010
+    when:
+      - date: 2021/12/25
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 046
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet046
+    when:
+      - date: 2021/12/24
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 009
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD009
+    when:
+      - date: 2021/12/18
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 045
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet045
+    when:
+      - date: 2021/12/17
+        time: 18:30
+        hours: 2
+
+  - title: Mid Tier 003
+    description: "Free online tournament for beginners"
+    type: tournament
+    twitch: theapexcollective
+    challonge: MidTier003
+    when:
+      - date: 2021/12/12
+        time: 15:00
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 008
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD008
+    when:
+      - date: 2021/12/11
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 044
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet044
+    when:
+      - date: 2021/12/10
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 007
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD007
+    when:
+      - date: 2021/12/04
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 043
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet043
+    when:
+      - date: 2021/12/03
+        time: 18:30
+        hours: 2
+
+  - title: Mid Tier 002
+    description: "Free online tournament for beginners"
+    type: tournament
+    challonge: MidTier002
+    when:
+      - date: 2021/11/28
+        time: 15:00
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 006
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD006
+    when:
+      - date: 2021/11/27
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 042
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet042
+    when:
+      - date: 2021/11/26
+        time: 18:30
+        hours: 2
+
+  - title: Mid Tier 001
+    description: "Free online tournament for beginners"
+    type: tournament
+    challonge: MidTier001
+    when:
+      - date: 2021/11/14
+        time: 15:00
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 005
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD005
+    when:
+      - date: 2021/11/13
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 004
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD004
+    when:
+      - date: 2021/11/06
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 041
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet041
+    when:
+      - date: 2021/11/05
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 003
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD003
+    when:
+      - date: 2021/10/30
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 040
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet040
+    when:
+      - date: 2021/10/29
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet Modded 002
+    description: "Free online tournament every Saturday afternoon with a specific roster for Mod Enthusiasts"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: TLGMOD002
+    when:
+      - date: 2021/10/23
+        time: 14:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 039
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet039
+    when:
+      - date: 2021/10/08
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 036
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu036
+    when:
+      - date: 2021/10/09
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 038
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet038
+    when:
+      - date: 2021/10/01
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 035
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu035
+    when:
+      - date: 2021/10/02
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 037
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet037
+    when:
+      - date: 2021/09/24
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 034
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu034
+    when:
+      - date: 2021/09/25
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 036
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet036
+    when:
+      - date: 2021/09/17
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 033
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu033
+    when:
+      - date: 2021/09/18
+        time: 13:00
+        hours: 2
+
+  - title: TLA Halloween Tournament
+    description: Official tournament! Join to earn exclusive skins for your account! Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tlahalloween
+    when:
+      - date: 2021/10/15
+        time: 19:00
+        hours: 3
+
+  - title: TLA @ Balance Patch
+    description: Offline event at Balance Patch in Boston! Join to earn exclusive skins for your account + meet the dev!
+    type: meetup
+    challonge: eesbn4h3
+    when:
+      - date: 2021/10/22
+        time: 18:00
+        hours: 3
+
+  - title: "Quarantined 4: Tough Love Arena"
+    description: Official tournament! $100 Pot split across Top 3. Details in the Challonge
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: "https://quarterlyrapport.challonge.com/quar4tla"
+    when:
+      - date: 2021/11/12
+        time: 19:00
+        hours: 3
+
+  - title: Tough Love Gauntlet NA 035
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet035
+    when:
+      - date: 2021/09/10
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 032
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu032
+    when:
+      - date: 2021/09/11
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 034
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet034
+    when:
+      - date: 2021/09/03
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 031
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu031
+    when:
+      - date: 2021/09/04
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 033
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet033
+    when:
+      - date: 2021/08/27
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 030
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu030
+    when:
+      - date: 2021/08/28
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 032
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet032
+    when:
+      - date: 2021/08/20
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 029
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu029
+    when:
+      - date: 2021/08/21
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 031
+    description: "Free online tournament every Friday night for North American players. Rosa and Spiral will be joining for Commentary!"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet031
+    when:
+      - date: 2021/08/13
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 028
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu028
+    when:
+      - date: 2021/08/14
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 030
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet030
+    when:
+      - date: 2021/08/06
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 027
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu027
+    when:
+      - date: 2021/08/07
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 029
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet029
+    when:
+      - date: 2021/07/30
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 026
+    description: "Free online tournament every Saturday night for EU players. Half a Year of Tough Love Gauntlet EU!"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu026
+    when:
+      - date: 2021/07/31
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 028
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet028
+    when:
+      - date: 2021/07/23
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 025
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu025
+    when:
+      - date: 2021/07/24
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 027
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet027
+    when:
+      - date: 2021/07/16
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 024
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu024
+    when:
+      - date: 2021/07/17
+        time: 13:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 026
+    description: "Free online tournament every Friday night for North American players. Half a Year of Tough Love Gauntlet NA! For the special occasion the Game's Developer, Paul, will be joining on Commentary!"
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet026
+    when:
+      - date: 2021/07/09
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 023
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu023
+    when:
+      - date: 2021/07/10
+        time: 13:00
+        hours: 2
+
+  - title: Six Month Anniversary Tournament
+    description: Free online tournament to celebrate the 6 month anniversary! $100+ payout to Top 3!
+    type: tournament
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    challonge: tla6month
+    matcherino: "50585"
+    when:
+      - date: 2021/06/26
+        time: 18:00
+        hours: 4
+
+  - title: Tough Love Gauntlet NA 022
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet022
+    when:
+      - date: 2021/06/11
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 020
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu020
+    when:
+      - date: 2021/06/12
+        time: 13:00
+        hours: 2
+
+  - title: "2BCU CommuniCup June: Tough Love Arena"
+    description: Free online tournament for EU players
+    type: tournament
+    twitch: 2BCU
+    challonge: 2BCUCCTLA6
+    when:
+      - date: 2021/06/13
+        time: 14:00 # 8pm CEST
+        hours: 3
+
+  - title: Secret Spice Super Slam
+    description: "Have you ever wanted a bit more health, grab out of TP, or just look really cool? Well fear no more because Secret Spice Super Slam is here. The first secret spice only tournament hosted by The Fruit Aisle!"
+    type: tournament
+    image: fruitaisle.png
+    twitch: kaywayz
+    challonge: SeSpSuSl
+    when:
+      - date: 2021/06/09
+        time: 18:00
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 021
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet021
+    when:
+      - date: 2021/06/04
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 019
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu019
+    when:
+      - date: 2021/06/05
+        time: 13:00
+        hours: 2
+
+  - title: The Speak Easy
+    description: "Ellington's tournament for Tough Love Arena!!! Players of any skill level are welcome!"
+    type: tournament
+    challonge: 2jnq383o
+    when:
+      - date: 2021/05/30
+        time: 18:30
+        hours: 3
+
+  - title: Tough Love Gauntlet NA 020
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet020
+    when:
+      - date: 2021/05/28
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 018
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu018
+    when:
+      - date: 2021/05/29
+        time: 12:30
+        hours: 2
+
+  - title: "2BCU CommuniCup May: Tough Love Arena"
+    description: Free online tournament for EU players
+    type: tournament
+    twitch: 2BCU
+    challonge: CCTLA
+    when:
+      - date: 2021/05/16
+        time: 08:00 # 2pm CEST
+        hours: 3
+
+  - title: "The Fruit Aisle: Everyone's Arena"
+    description: An event where every set is BO5 and you must win a game with one character from each group
+    type: tournament
+    image: fruitaisle.png
+    twitch: kaywayz
+    challonge: hufids
+    when:
+      - date: 2021/05/12
+        time: 19:00
+        hours: 3
+
+  - title: Tough Love Gauntlet NA 019
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet019
+    when:
+      - date: 2021/05/21
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 017
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu017
+    when:
+      - date: 2021/05/22
+        time: 12:30
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 018
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet018
+    when:
+      - date: 2021/05/14
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 016
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu016
+    when:
+      - date: 2021/05/15
+        time: 12:30
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 017
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet017
+    when:
+      - date: 2021/05/07
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 015
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu015
+    when:
+      - date: 2021/05/08
+        time: 12:30
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 016
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet016
+    when:
+      - date: 2021/04/30
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 014
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu014
+    when:
+      - date: 2021/05/01
+        time: 12:30
+        hours: 2
+
+  - title: Tough Love Gauntlet NA 015
+    description: Free online tournament every Friday night for North American players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: ToughLoveGauntlet015
+    when:
+      - date: 2021/04/23
+        time: 18:30
+        hours: 2
+
+  - title: Tough Love Gauntlet EU 013
+    description: Free online tournament every Saturday night for EU players
+    type: tournament
+    image: tng.png
+    twitch: theapexcollective
+    challonge: tlgeu013
+    when:
+      - date: 2021/04/24
+        time: 12:30
+        hours: 2
+
+  - title: State of the Game
+    description: The first Monday of every month, the dev team discusses recent production + community progress and lays out upcoming work
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2021/05/03
+        time: 20:00
+        hours: 2
+      - date: 2021/06/07
+        time: 20:00
+        hours: 2
+      - date: 2021/07/05
+        time: 20:00
+        hours: 2
+      - date: 2021/08/02
+        time: 20:00
+        hours: 1
+      - date: 2021/09/06
+        time: 20:00
+        hours: 2
+      - date: 2021/10/04
+        time: 20:00
+        hours: 2
+      - date: 2021/11/01
+        time: 20:00
+        hours: 2
+      - date: 2021/12/06
+        time: 20:00
+        hours: 2
+
+  - title: Official Game Dev Stream
+    description: Watch the game development process and chat with the creators of TLA
+    type: stream
+    image: mpaulweeks.jpg
+    twitch: mpaulweeks
+    when:
+      - date: 2021/04/22
+        time: 14:00
+        hours: 3
+      - date: 2021/04/27
+        time: 14:00
+        hours: 3
+      - date: 2021/04/29
+        time: 14:00
+        hours: 3
+      - date: 2021/05/04
+        time: 14:00
+        hours: 3
+      - date: 2021/05/06
+        time: 14:00
+        hours: 3
+      - date: 2021/05/13
+        time: 14:00
+        hours: 3
+      - date: 2021/05/18
+        time: 14:00
+        hours: 3
+      - date: 2021/05/20
+        time: 14:00
+        hours: 3
+      - date: 2021/05/25
+        time: 14:00
+        hours: 3
+      - date: 2021/05/27
+        time: 14:00
+        hours: 3
+      - date: 2021/06/01
+        time: 14:00
+        hours: 3
+      - date: 2021/06/03
+        time: 14:00
+        hours: 3
+      - date: 2021/06/08
+        time: 14:00
+        hours: 3
+      - date: 2021/06/10
+        time: 14:00
+        hours: 3
+      - date: 2021/06/15
+        time: 14:00
+        hours: 3
+      - date: 2021/06/17
+        time: 14:00
+        hours: 3
+      - date: 2021/06/22
+        time: 14:00
+        hours: 3
+      - date: 2021/06/24
+        time: 14:00
+        hours: 3
+      - date: 2021/06/29
+        time: 14:00
+        hours: 3
+      - date: 2021/07/01
+        time: 14:00
+        hours: 3
+      - date: 2021/07/06
+        time: 14:00
+        hours: 3
+      - date: 2021/07/08
+        time: 14:00
+        hours: 3
+      - date: 2021/07/13
+        time: 14:00
+        hours: 3
+      - date: 2021/07/15
+        time: 14:00
+        hours: 3
+      - date: 2021/09/07
+        time: 14:00
+        hours: 3
+      - date: 2021/09/09
+        time: 14:00
+        hours: 3
+      - date: 2021/09/14
+        time: 14:00
+        hours: 3
+      - date: 2021/09/16
+        time: 14:00
+        hours: 3
+      - date: 2021/09/21
+        time: 14:00
+        hours: 3
+      - date: 2021/09/23
+        time: 14:00
+        hours: 3
+      - date: 2021/09/28
+        time: 14:00
+        hours: 3
+      - date: 2021/09/30
+        time: 14:00
+        hours: 3
+      - date: 2021/10/05
+        time: 14:00
+        hours: 3
+      - date: 2021/10/07
+        time: 14:00
+        hours: 3
+      - date: 2021/10/12
+        time: 14:00
+        hours: 3
+      - date: 2021/10/14
+        time: 14:00
+        hours: 3
+      - date: 2021/10/19
+        time: 14:00
+        hours: 3
+      - date: 2021/10/28
+        time: 14:00
+        hours: 3
+      - date: 2021/11/09
+        time: 14:00
+        hours: 3
+      - date: 2021/11/11
+        time: 14:00
+        hours: 3
+      - date: 2021/11/16
+        time: 14:00
+        hours: 3
+      - date: 2021/11/18
+        time: 14:00
+        hours: 3
+      - date: 2021/11/30
+        time: 14:00
+        hours: 3
+      - date: 2021/12/02
+        time: 14:00
+        hours: 3
+      - date: 2021/12/07
+        time: 14:00
+        hours: 3
+      - date: 2021/12/09
+        time: 14:00
+        hours: 3
+      - date: 2021/12/14
+        time: 14:00
+        hours: 3
