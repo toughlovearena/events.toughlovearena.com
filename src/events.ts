@@ -140,8 +140,7 @@ export class EventManager {
 
   async fetchEvents(): Promise<AllEvents> {
     const eventFiles = await Promise.all([
-      'data2021.yaml',
-      'data2022.yaml',
+      'data.yaml',
     ].map(fetchEventFile));
     const eventDTOs = eventFiles.map(file => this._parseYaml(file));
     return this._organizeEvents(flatten(eventDTOs));
