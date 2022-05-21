@@ -32,7 +32,7 @@ jobs:
       - name: Copy over changelog.yaml and commit
         run: |
           timestamp=$(date  +"%Y/%m/%d %H:%M:%S")
-          cp public/data2022.yaml about.toughlovearena.com/public/data/events.yaml
+          cp public/data.yaml about.toughlovearena.com/public/data/events.yaml
           cd about.toughlovearena.com
           git config --global user.email "mpaulweeks@gmail.com"
           git config --global user.name "mpaulweeks"
